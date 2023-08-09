@@ -6,6 +6,7 @@ The link is: console.google.cloud.com
 Portal Overview -> Home page, Activity, Services Overview, Search Box, Billing Overview, Payment Overview.
 
 Project Overview:
+=================
 	-> Logical grouping of all the resources.
 	-> Default One project is created when the account is got created then itself the Default project is created. 
 	-> The naming convention of the project will looks like "My-First-Project" its the name.
@@ -17,6 +18,7 @@ Project Overview:
 	-> Project Number: Google generated. can't be changed by the user. Globally unique number.
 
 Interacting with GCP:
+=====================
 
 5 ways to interact with GCP:
 	-> UI or Web Console
@@ -33,3 +35,11 @@ Creation of Storage Accounts:
 name should be unique -> down the page click on create -> It will created.
 2) Click on Cloud Shell -> After loading the shell -> Enter this Commands to create the storage account "gsutil mb gs://mc-labs-test002"
 change the name accordingly.
+
+
+Google Tools:
+=============
+-> gcloud	- command line tool for all common GCP resources ( except - Cloud Storage, BigQuery and BigTable )
+-> gsutil	- used for interacting with Cloud Storage.
+-> bq		- command line tool for interacting with BigQuery.
+-> cbt		- command line tool to interact with BigTable.
