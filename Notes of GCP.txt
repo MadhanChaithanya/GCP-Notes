@@ -1,0 +1,7 @@
+Notes of GCP:
+=============
+
+The link is: console.google.cloud.com
+
+Portal Overview -> Home page, Activity, Services Overview, Search Box, Billing Overview, Payment Overview.
+
