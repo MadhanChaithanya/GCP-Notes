@@ -56,4 +56,29 @@ IAM = Identity and Access Management
 
 "Who" can do "what" on "which" resource?
 
+Who = User = Principal
 
+	- Google Account
+	- Google Group
+	- Service Account / Service Agent
+
+Google Accounts:
+----------------
+There are 2 types of google account:
+	- Individual User Account	-> chaithanya2996@gmail.com, opschaithu00@gmail.com
+	- Organization Account		-> chaithnaya@infosys.com, madhan@msc.com
+
+Google Groups:
+--------------
+
+	- Developers
+	- Adminstrators
+	- Network Admins
+	- DBAs
+
+Developer - Madhan, Sai, Nandha, Chandu
+DBAs - Kishore, Mahesh, Nelson
+
+Benefit:
+  - Useful for assigning roles to multiple users
+  - User loses roles when removed from the group
