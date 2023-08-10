@@ -43,3 +43,17 @@ Google Tools:
 -> gsutil	- used for interacting with Cloud Storage.
 -> bq		- command line tool for interacting with BigQuery.
 -> cbt		- command line tool to interact with BigTable.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+IAM Fundamentals:
+=================
+
+Authentication and Authorization (AuthN and AuthZ)
+
+
+IAM = Identity and Access Management
+
+"Who" can do "what" on "which" resource?
+
+
