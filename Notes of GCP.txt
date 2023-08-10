@@ -82,3 +82,21 @@ DBAs - Kishore, Mahesh, Nelson
 Benefit:
   - Useful for assigning roles to multiple users
   - User loses roles when removed from the group
+
+------------
+What is defined by permissions and role!
+
+Role: Collection of Permissions
+
+Permissions:
+[storage.buckets.create] --> create the bucket
+[storage.buckets.delete] --> delete the bucket
+[storage.buckets.list] --> list the bucket
+[storage.object.create] --> add some data inside the bucket/ add new objects
+
+
+Role:
+Collection of Permissions
+
+Admin 		- [storage.buckets.create] + [storage.buckets.delete] + [storage.buckets.list]
+Developer	- [storage.object.create] + [storage.object.delete] + [storage.object.list] + [storage.object.get]
