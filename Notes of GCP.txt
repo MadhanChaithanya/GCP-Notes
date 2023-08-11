@@ -100,3 +100,32 @@ Collection of Permissions
 
 Admin 		- [storage.buckets.create] + [storage.buckets.delete] + [storage.buckets.list]
 Developer	- [storage.object.create] + [storage.object.delete] + [storage.object.list] + [storage.object.get]
+
+-------------------------------
+
+Roles: 
+------
+3 different types of roles in GCP
+
+	- Primitive Roles / Basic Role: 	Created by Google. These are broad in Scope. It includes - Owner, Editor, Viewer
+
+	- Pre-defined Roles:			Created by Google. Specific google cloud service offers sets of predefined roles.
+		E.g:-	compute admin, storage developer
+
+	- Custom Roles:				For defining least privilege access. Custom roles - users can create the custom role with minimal permission
+
+Service Accounts:
+-----------------
+
+- Not real users
+- Robot Users
+- Perform an activity on your behalf
+- Attach Predefined / Primitive / Custom roles to service accounts
+- Service Accounts don't have passwords
+- It uses key to authenticate
+
+Whenever we are creating a Project, Google will create few service accounts on your behalf.
+- Compute Engine
+- App Engine
+
+
